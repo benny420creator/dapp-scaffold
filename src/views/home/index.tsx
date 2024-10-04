@@ -11,6 +11,8 @@ import pkg from '../../../package.json';
 
 // Store
 import useUserSOLBalanceStore from '../../stores/useUserSOLBalanceStore';
+import { Connection, PublicKey, Transaction } from '@solana/web3.js';
+import { notify } from 'utils/notifications';
 
 export const HomeView: FC = ({ }) => {
   const wallet = useWallet();
