@@ -34,9 +34,6 @@ export const HomeView: FC = ({ }) => {
     <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
         <div className='mt-6'>
-    import { init } from "@jup-ag/terminal";
-import "@jup-ag/terminal/css";
-
 const walletProps = useWallet();
 useEffect(() => {
   init({
